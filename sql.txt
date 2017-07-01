@@ -1,0 +1,1 @@
+select artist_id,sum(playCount) as all_num from statistics group by artist_id order by all_num desc
