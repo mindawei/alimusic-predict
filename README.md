@@ -1,5 +1,5 @@
 # alimusic-predict
-[阿里音乐流行趋势预测大赛](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.4c5fd3bez7WUi&raceId=231531)比赛要求参赛者利用阿里音乐用户前 6 个月的播放数据预测未来 2 个月的播放情况。本人在比赛中负责数据的清洗和平滑、规则的编写。最终排名第 12（共 5476 队），获得极客奖。
+[阿里音乐流行趋势预测大赛](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.4c5fd3bez7WUi&raceId=231531)比赛要求参赛者利用阿里音乐用户前 6 个月的播放数据预测未来 2 个月的播放情况。本人在比赛中负责数据的清洗和平滑、规则的编写。初赛代码（第216名，前500名进入复赛），复赛排名第 12（共 5476 队），获得极客奖。
 
 ## alimusic-predict-1<br>
 这是初赛代码（Python）,解题思路：进行数据分析，清理异常值，构造数据特征，调用一些模型（GBDT,随机深林）进行预测。
